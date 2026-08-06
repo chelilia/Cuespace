@@ -1,0 +1,30 @@
+# Local assets (not shipped in git)
+/data/feats
+/data/ckpt
+/ckpt
+/ckpt/
+/annots
+/feats
+/checkpoints/*.pt
+/result/
+.hf_upload_staging/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Logs & temp
+*.log
+logs/
+tmp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
